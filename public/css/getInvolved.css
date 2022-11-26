@@ -1,0 +1,135 @@
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+  }
+  .contact-form {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 100px 60px 80px;
+    -webkit-box-shadow: 0px 3px 8px 2px #ededed;
+    box-shadow: 0px 3px 8px 2px #ededed;
+    z-index: 3;
+  }
+  .contact-form .sec-title-style1 {
+    position: relative;
+    display: block;
+    padding-bottom: 51px;
+    width: 50%;
+  }
+  .contact-form .text-box {
+    position: relative;
+    display: block;
+    margin-top: 19px;
+    width: 50%;
+  }
+  .contact-form .text p {
+    color: #848484;
+    line-height: 26px;
+    margin: 0;
+  }
+  
+  .contact-form .inner-box {
+    position: relative;
+    display: block;
+    background: #ffffff;
+  }
+  .contact-form form {
+    position: relative;
+    display: block;
+  }
+  .contact-form form .input-box {
+    position: relative;
+    display: block;
+  }
+  
+  .contact-form form input[type="text"],
+  .contact-form form input[type="email"],
+  .contact-form form textarea {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    padding-left: 19px;
+    padding-right: 15px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    transition: all 500ms ease;
+  }
+  .contact-form form textarea {
+    height: 130px;
+    padding-left: 19px;
+    padding-right: 15px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+  }
+  .contact-form form input[type="text"]:focus {
+    color: #222222;
+    border-color: #d4d4d4;
+  }
+  .contact-form form input[type="email"]:focus {
+    color: #222222;
+    border-color: #d4d4d4;
+  }
+  .contact-form form textarea:focus {
+    color: #222222;
+    border-color: #d4d4d4;
+  }
+  .contact-form form input[type="text"]::-webkit-input-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="text"]:-moz-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="text"]::-moz-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="text"]:-ms-input-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="email"]::-webkit-input-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="email"]:-moz-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="email"]::-moz-placeholder {
+    color: #848484;
+  }
+  .contact-form form input[type="email"]:-ms-input-placeholder {
+    color: #848484;
+  }
+  .contact-form form button {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: white;
+    border: 1px solid #26c717;
+    color: #131313;
+    font-size: 16px;
+    line-height: 55px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    cursor: pointer;
+  }
+  
+  .contact-form form button:hover {
+    color: #ffffff;
+    background: #26c717;
+  }
+  .show{
+    display: block;
+  }
+  
+  .filterDiv {
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }

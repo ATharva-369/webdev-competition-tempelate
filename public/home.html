@@ -6,6 +6,13 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>Home</title>
 		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<link rel="stylesheet" type="text/css" href="./css/Aboutus.css" />
+		<link rel="stylesheet" type="text/css" href="" />
+		<script type="module" src="/js/prod.js"></script>
+		<script
+			src="https://kit.fontawesome.com/8a9230f6f5.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<nav>
@@ -14,10 +21,11 @@
 			</div>
 			<ul class="nav-links">
 				<li><a href="#home">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Get Involved</a></li>
-				<li>
+				<li><a href="#about-us">About Us</a></li>
+				<li><a href="home.html#product-container">Products</a></li>
+				<li><a href="getInvolved.html">Get Involved</a></li>
+				<li class="hide"><a href="cart.html" class="fa-solid fa-cart-shopping cart"></a></li>
+				<li id="login">
 					<button
 						class="login-button"
 						onclick="location.href='login.html'"
@@ -29,9 +37,65 @@
 		</nav>
 	</body>
 	<section class="hero">
-		<h4>lorem ipsum</h4>
-		<h1>Recycled Products</h1>
-		<p>Made by children</p>
+		<h4>Our Recycled Product Collection</h4>
+		<h1>Best out of Waste</h1>
+		<p>Made by children, for children</p>
 	</section>
-</html>
-""
+	<section id="plastic-bags">
+	<h1>One <span style="color: #26c717">Cloth Bag</span> can replace 10 <span style="color: #c71717">Plastic Bags</span></h1>
+	<img src="images/index.jpg" height="400px" width="600px">
+	<p>Help reduce plastic emmissions by using recycled eco-friendly products made by young students all across India. Children from different schools have come together to create 'Best out of Waste' products for retail, and the money raised will be used to educate kids in rural areas.<p>
+	</section>
+	<section class="products" id="products">
+		<h2>Our Products</h2>
+		   <div id="product-container" class="product-container">
+		   </div>
+	   </section>
+	<section class="map">
+		<div class="left">
+			<h1>Our Reach</h1>
+			<p>We have connected in every state, making sure each child is literate. Their happiness, their smiles and their growth are our primary priorities</p>
+		</div>
+		<div class="right">
+			<img width="700px"src="images/map.jpg"/>
+		</div>
+
+	</section>
+	<section id="about-us">
+		<img class="about-us1" src="https://files.globalgiving.org/pfil/20640/ph_20640_74604.jpg?m=1432842454000"/>
+		<div class="text-container">
+		<h1>About Us</h1>
+		<p>'For Children, By Children' is a new initiative taken that recycles waste material into 'Best Out Of Waste' products. These products are made by students from various schools all across India, to raise funds for child education.</p>
+		<h2>Our Mission</h2>
+		<p>Collaborate and create an effective change, reduce waste usage as much as we can and spread happiness.</p>
+		<h2>Our Vision</h2>
+		<p>Build a big network and rising India’s literacy rate over 20% over the span of a year</p>	
+	</div>
+	</section>		
+
+		<footer>
+			<div class="f-item-con">
+				<div class="app-info">
+					<span class='app-name'>
+						WebOps
+					</span>
+					<p>Made with <b>love</b> by students</p>
+				</div>
+				<div class="useful-links">
+					<div class="footer-title">Socials</div>
+					<a href="#"><i class="fa-brands fa-twitter logo"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram logo"></i></a>
+					<a href="#"><i class="fa-brands fa-facebook logo"></i></a>
+				</div>
+				<div class="g-i-t">
+					<div class="footer-title">For more information</div>
+					<form action="https://formsubmit.co/pandey.a.soumya@gmail.com" method="POST" method="post" class="space-y-2">
+						<input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+						<input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+						<button type="submit" class='f-btn'>Submit</button>
+					</form>
+				</div>
+			</div>
+			<div class='cr-con'>Copyright &copy; 2022</div>
+		</footer>
+		</html>

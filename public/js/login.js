@@ -19,7 +19,9 @@ form.addEventListener('submit', function (e) {
 		error.innerText = messages.join(', ');
 	} else {
 		loggedIn = true;
+		document.location ='./home.html'
 		alert('Logged In');
+		localStorage.setItem("loggedIn", JSON.stringify(loggedIn));
 	}
 });
 
