@@ -1,95 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Get Involved</title>
-		<link rel="stylesheet" type="text/css" href="./css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/getInvolved.css"/>
-    <script
-    src="https://kit.fontawesome.com/8a9230f6f5.js"
-    crossorigin="anonymous"
-  ></script>
-	</head>
-	<body>
-		<nav>
-			<div class="logo">
-				<img src="./images/logo.png" alt="Logo Image" />
-			</div>
-			<ul class="nav-links">
-				<li><a href="home.html">Home</a></li>
-				<li><a href="home.html#about-us">About Us</a></li>
-				<li><a href="home.html#product-container">Products</a></li>
-        <li class="hide"><a href="cart.html" class="fa-solid fa-cart-shopping cart"></a></li>
-				<li>
-					<button
-						class="login-button"
-						onclick="location.href='login.html'"
-					>
-						Login
-					</button>
-				</li>
-			</ul>
-		</nav>
-	</body>
-	<body>
-        <section class="contact-info-area">
-       <div class="row">
-         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-           <div class="contact-form">
-             <div class="row">
-               <div class="col-xl-12">
-                 <div class="sec-title-style1 float-left">
-                   <div class="title">
-                    <h2 style="padding-top: 10px;">Join Us to Collaborate! </h2>
-                   </div>
-                   <div class="text">
-                     <div class="decor-left"><span></span></div>
-                     <p style="padding-top: 20px;">Want your school to be a part of this big change? Fill the form below.</p>
-                   </div>
-                 </div>
-               </div>
-             </div>
-             <div class="inner-box">
-               <form id="contact-form" name="contact_form" class="default-form" action="https://formsubmit.co/pandey.a.soumya@gmail.com" method="POST" >
-                   
-                 <div class="row">
-                   <div class="col-xl-6 col-lg-12">
-                     <div class="row">
-                       <div class="col-xl-6">
-                         <div class="input-box">
-                           <input type="text" name="name" value="" placeholder="Name" required="" id="name">
-                         </div>
-                         <div class="input-box">
-                           <input type="text" name="phone" value="" placeholder="Phone" required="" id="phone">
-                         </div>
-                       </div>
-                       <div class="col-xl-6">
-                         <div class="input-box">
-                           <input type="email" name="email" value="" placeholder="Email" required="" id="email">
-                         </div>
-                         <div class="input-box">
-                           <input type="text" name="school_name" value="" placeholder="School" required="" id="school">
-                         </div>
-                       </div>
-                     </div>
-                     <div class="row">
-                       <div class="col-xl-12">
-                         <div class="input-box">
-                           <input type="text" name="time" value="" placeholder="Preferred Time to receive a call" required="" id="time">
-                         </div>
-                       </div>
-                     </div>
-                     <div class="button-box">
-                       <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                       <button type="submit" id="submit_button" data-loading-text="Please wait...">Submit Request<span class="flaticon-next"></span></button>
-                     </div>
-                   </div>
-                   </div>
-                </form>
-                <section style="text-align:center;margin-top:100px">
-                  <h2>Collaborating Schools</h2>
-                <img width="100%" src="images/school_logos.jpg"/>
-                </section>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Cart</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' href='./css/cart.css'>
+  <script src="/js/cart.js" defer></script>
+  <script
+  src="https://kit.fontawesome.com/8a9230f6f5.js"
+  crossorigin="anonymous"
+></script>
+</head>
+<body>
+  <div class="wrap cf">
+    <h1 class="projTitle">Shopping Cart</h1>
+    <div class="heading cf">
+      <h1>My Cart</h1>
+      <a href="/" class="continue">Continue Shopping</a>
+    </div>
+    <div class="cart" id="cart">
+
+      <ul class="cartWrap" id="cartWrap">>
+      
+        
+        <!--<li class="items even">Item 2</li>-->
+      </ul>
+    </div>
+    
+   
+    
+    <div class="subtotal cf">
+      <ul>
+              <li class="totalRow final"><span class="label">Total</span><span id="value">₹0.00</span></li>
+        <li class="totalRow"><a class="btn continue" id="checkout">Checkout</a></li>
+      </ul>
+    </div>
+    <div class="delivery">
+      <p>The products will be delivered in the next 2-3 working days 🚚</p>
+    </div>
+  </div>
+</body>
 </html>
